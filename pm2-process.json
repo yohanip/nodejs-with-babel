@@ -1,0 +1,6 @@
+{
+  "apps" : [{
+    "script"      : "build/index.js",
+    "watch"       : ["build"]
+  }]
+}
