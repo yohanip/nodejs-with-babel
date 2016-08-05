@@ -1,6 +1,11 @@
 {
-  "apps" : [{
-    "script"      : "build/index.js",
-    "watch"       : ["build"]
-  }]
+  "apps": [
+    {
+      "name": "nodejs-babel",
+      "script": "build/index.js",
+      "watch": [
+        "build"
+      ]
+    }
+  ]
 }

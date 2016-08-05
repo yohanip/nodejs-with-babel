@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "babel -w code/ -d build/ --source-maps",
-    "compile": "babel -w code/ --out-file compiled.js",
+    "watch": "babel -w code/ -d build/ --source-maps inline",
+    "compile": "babel code/ --out-file compiled.js",
     "go" : "node build",
     "start": "pm2 start pm2-process.json",
-    "stop": "pm2 stop --watch 0"
+    "stop": "pm2 stop nodejs-babel --watch"
   },
   "author": "",
   "license": "ISC",
