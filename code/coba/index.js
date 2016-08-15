@@ -9,7 +9,8 @@ export default class Something {
   }
 
   ok = async () => {
-    try {
+    try
+    {
       let p = await new Promise(r => {
         setTimeout(() => r(this.state), 3000)
       })

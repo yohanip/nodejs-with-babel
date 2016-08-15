@@ -5,7 +5,8 @@
       "script": "build/index.js",
       "watch": [
         "build"
-      ]
+      ],
+      "source_map_support": true
     }
   ]
 }
